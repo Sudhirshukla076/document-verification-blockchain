@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+# document-verification-blockchain
+Blockchain-based system for secure document verification using Solidity
+>>>>>>> 7a87fee8702b41d2dd4040ba8cd5f1aa59c87548
 # Blockchain-Based Document Verification System
 
 A decentralized application built using Solidity and Ethereum to securely issue and verify academic documents.
@@ -33,4 +38,8 @@ This project uses blockchain technology to store cryptographic hashes of documen
 ## Future Scope
 - IPFS integration
 - NFT-based certificates
+<<<<<<< HEAD
 - Frontend using React and ethers.js
+=======
+- Frontend using React and ethers.js
+>>>>>>> 7a87fee8702b41d2dd4040ba8cd5f1aa59c87548
