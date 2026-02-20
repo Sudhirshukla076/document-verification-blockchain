@@ -1,45 +1,43 @@
-<<<<<<< HEAD
-=======
-# document-verification-blockchain
-Blockchain-based system for secure document verification using Solidity
->>>>>>> 7a87fee8702b41d2dd4040ba8cd5f1aa59c87548
-# Blockchain-Based Document Verification System
+# 📄 Blockchain-Based Document Verification System
 
-A decentralized application built using Solidity and Ethereum to securely issue and verify academic documents.
+A decentralized application (DApp) that enables secure issuance and verification of academic documents using blockchain technology.  
+The system ensures authenticity, immutability, and transparency by storing document hashes on the Ethereum blockchain.
 
-## Problem Statement
-Traditional document verification systems are centralized, time-consuming, and prone to forgery.
+---
 
-## Solution
-This project uses blockchain technology to store cryptographic hashes of documents, ensuring immutability and transparent verification.
+## 🚀 Features
 
-## Features
-- Admin-only document issuance
-- Secure hash-based storage
-- Public document verification
-- Prevention of duplicate documents
+- 🔐 Secure document issuance using blockchain
+- 🧾 Document verification using cryptographic hash (bytes32)
+- 👨‍💼 Admin-only document issuing
+- 🌐 Ethereum Sepolia testnet deployment
+- 🦊 MetaMask wallet integration
+- ⚛️ React frontend with ethers.js
 
-## Tech Stack
+---
+
+## 🏗️ System Architecture
+
+![System Architecture](diagrams/system-architecture.png)
+
+---
+
+## 🛠️ Tech Stack
+
+**Blockchain**
 - Solidity
-- Ethereum
+- Ethereum (Sepolia Testnet)
 - Remix IDE
+
+**Frontend**
+- React.js
+- ethers.js
 - MetaMask
 
-## Project Structure
-- contracts/ : Smart contracts
-- screenshots/ : Execution proof
-- diagrams/ : Architecture diagram
+**Tools**
+- Node.js
+- Git & GitHub
 
-## How It Works
-1. Issuer uploads document hash
-2. Hash is stored on blockchain
-3. Verifier checks authenticity using hash
+---
 
-## Future Scope
-- IPFS integration
-- NFT-based certificates
-<<<<<<< HEAD
-- Frontend using React and ethers.js
-=======
-- Frontend using React and ethers.js
->>>>>>> 7a87fee8702b41d2dd4040ba8cd5f1aa59c87548
+## 📂 Project Structure
